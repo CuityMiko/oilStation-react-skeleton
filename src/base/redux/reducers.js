@@ -21,9 +21,6 @@ import HomeReducers from '@/main/home.reducer'
 // 油站管理
 import OiltationManageReducers from '@/oiltation_manage/oiltation_manage.reducer'
 
-// 交接班
-import ShiftsCenterReducers from '@/shifts_center/shifts_center.reducer'
-
 /**
  * 公共reducer
  */
@@ -79,7 +76,6 @@ export default combineReducers({
   requestLoading,
   ...LoginReducers,
   ...HomeReducers,
-  ...OiltationManageReducers,
-  ...ShiftsCenterReducers
+  ...OiltationManageReducers
 })
 

@@ -12,7 +12,7 @@ class PHeader extends React.Component {
             <Header>
                 <div>
                     <img src={logo} style={{height: 40}} alt="logo" />
-                    <span style={{marginLeft: 10, fontWeight: "bolder", fontSize: 16}}>找回密码</span>
+                    <span style={{marginLeft: 10, fontWeight: "500", fontSize: 16}}>找回密码</span>
                     <Link to="/login/index" style={{float: 'right', marginRight: 5}}>返回登录</Link>
                 </div>
             </Header>

@@ -12,15 +12,6 @@ const OperatorManage = Loadable({
     loading: Loading
 });
 
-/**
- *  支付二维码
- */
-const PayQrcode = Loadable({
-    loader: () => import('../containers/pay_qrcode/PayQrcode.jsx'),
-    loading: Loading
-});
-
 export default {
-    OperatorManage,
-    PayQrcode
+    OperatorManage
 }
